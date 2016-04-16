@@ -12,9 +12,9 @@
 	$timeToWait=5;
 	$timeToAFK=1800;
 	
-	$userList=[];
+	/*$userList=[];
 	$userSocketList=[];
-	$userIPList=[];
+	$userIPList=[];*/
 	
 	getArguments();
 	
@@ -29,7 +29,7 @@
 			$userID=(int)$userIDString;
 			$messageString=getArgument("message");
 			if($messageString!=null) {
-				sendMessage($userID,$messageString);
+				sendMessageOriginal($messageString);
 			}
 		}
 		
@@ -38,10 +38,10 @@
 			$timeToWait=(int)$ttwString;
 		}
 		
-		$connectString=getArgument("connect");
+		/*$connectString=getArgument("connect");
 		if($connectString!=null) {
 			newUser();
-		}
+		}*/
 	}
 
 	function openConnection() {
@@ -52,7 +52,7 @@
 		return $socket;
 	}
 	
-	function listener() {
+	/*function listener() {
 		global $userList,$userSocketList,$userIPList,$port;
 		
 		$userCount=count($userList);
@@ -118,6 +118,30 @@
 		$actualString=hexToStr($message);
 		
 		fwrite($userSocket,$actualString);
+	}*/
+	
+	function sendMessageOriginal($message) {
+		global $socket, $timeToWait;
+		
+		if($socket==null) {
+			$socket=openConnection();
+		}
+		
+		$actualString=hexToStr($message);
+		
+		fwrite($socket,$actualString);
+			
+		$file="";
+	
+		stream_set_timeout($socket, $timeToWait);
+		$info = stream_get_meta_data($socket);
+
+		while (!feof($socket) && !$info['timed_out']) {
+			$file .= fgets($socket, 4096);
+			$info = stream_get_meta_data($socket);
+		}
+		
+		echo $file;
 	}
 	
 	function getArgument($argumentName) {
