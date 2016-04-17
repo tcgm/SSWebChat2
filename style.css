@@ -4,13 +4,13 @@
 }
 
 body {
-	/*background: rgb(255,255,255);
-	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,247,247,1) 36%, rgba(198,198,198,1) 100%);
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 36%,rgba(198,198,198,1) 100%);
-	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 36%,rgba(198,198,198,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c6c6c6',GradientType=0 );*/
-	
-	/*background-image:url(//www.starsonata.com/inc/images/512c.png);*/
+    /*background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,247,247,1) 36%, rgba(198,198,198,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 36%,rgba(198,198,198,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 36%,rgba(198,198,198,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c6c6c6',GradientType=0 );*/
+    
+    /*background-image:url(//www.starsonata.com/inc/images/512c.png);*/
 
     -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
     box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
@@ -22,16 +22,16 @@ body {
     background: -ms-radial-gradient(center, ellipse cover, #2c2c2c 0%, #141414 100%);
     background: radial-gradient(ellipse at center, #2c2c2c 0%, #141414 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff2c2c2c, endColorstr=#ff141414, GradientType=1);
-	
-	color:#EEE;
-	font-family: 'sui_generis_ss', Futura, "Trebuchet MS", Arial, sans-serif;
-	
-	padding:0px;
-	margin:0px;
+    
+    color:#EEE;
+    font-family: 'sui_generis_ss', Futura, "Trebuchet MS", Arial, sans-serif;
+    
+    padding:0px;
+    margin:0px;
 }
 
 p {
-	margin:0px;
+    margin:0px;
 }
 
 .box {
@@ -51,74 +51,74 @@ p {
 }
 
 .button {
-	cursor:pointer;
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none;   /* Chrome/Safari/Opera */
-	-khtml-user-select: none;    /* Konqueror */
-	-moz-user-select: none;      /* Firefox */
-	-ms-user-select: none;       /* IE/Edge */
-	user-select: none;           /* non-prefixed version, currently
-								  not supported by any browser */
-								  
-	border-radius: 5px;
-	border: 1px solid #303030;
-	background: #202020;
-	background: -moz-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #202020), color-stop(100%, #101010));
-	background: -webkit-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
-	background: -o-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
-	background: -ms-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
-	background: radial-gradient(ellipse at center, #202020 0%, #101010 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff202020, endColorstr=#ff101010, GradientType=1);
-	-webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
-	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    cursor:pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+                                  
+    border-radius: 5px;
+    border: 1px solid #303030;
+    background: #202020;
+    background: -moz-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #202020), color-stop(100%, #101010));
+    background: -webkit-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
+    background: -o-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #202020 0%, #101010 100%);
+    background: radial-gradient(ellipse at center, #202020 0%, #101010 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff202020, endColorstr=#ff101010, GradientType=1);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
 }
 
 .button:hover {
-	background: #3c3c3c;
-	background: -moz-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #3c3c3c), color-stop(100%, #333333));
-	background: -webkit-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
-	background: -o-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
-	background: -ms-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
-	background: radial-gradient(ellipse at center, #3c3c3c 0%, #333333 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff3c3c3c, endColorstr=#ff333333, GradientType=1);
+    background: #3c3c3c;
+    background: -moz-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #3c3c3c), color-stop(100%, #333333));
+    background: -webkit-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
+    background: -o-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #3c3c3c 0%, #333333 100%);
+    background: radial-gradient(ellipse at center, #3c3c3c 0%, #333333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff3c3c3c, endColorstr=#ff333333, GradientType=1);
 }
 
 .button:active {
-	border-color: #444;
-	-webkit-box-shadow: 0px 0px 6px 0px rgba(114, 114, 114, 0.8);
-	box-shadow: 0px 0px 6px 0px rgba(114, 114, 114, 0.8);
-	background: #282828;
-	background: -moz-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #282828), color-stop(100%, #222222));
-	background: -webkit-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
-	background: -o-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
-	background: -ms-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
-	background: radial-gradient(ellipse at center, #282828 0%, #222222 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff282828, endColorstr=#ff222222, GradientType=1);
+    border-color: #444;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(114, 114, 114, 0.8);
+    box-shadow: 0px 0px 6px 0px rgba(114, 114, 114, 0.8);
+    background: #282828;
+    background: -moz-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #282828), color-stop(100%, #222222));
+    background: -webkit-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
+    background: -o-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #282828 0%, #222222 100%);
+    background: radial-gradient(ellipse at center, #282828 0%, #222222 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff282828, endColorstr=#ff222222, GradientType=1);
 }
 
 .noselect {
-	cursor:default;
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none;   /* Chrome/Safari/Opera */
-	-khtml-user-select: none;    /* Konqueror */
-	-moz-user-select: none;      /* Firefox */
-	-ms-user-select: none;       /* IE/Edge */
-	user-select: none;           /* non-prefixed version, currently
-								  not supported by any browser */
+    cursor:default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
 }
 
 .noselect-link {
-	cursor:pointer;
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none;   /* Chrome/Safari/Opera */
-	-khtml-user-select: none;    /* Konqueror */
-	-moz-user-select: none;      /* Firefox */
-	-ms-user-select: none;       /* IE/Edge */
-	user-select: none;           /* non-prefixed version, currently
-								  not supported by any browser */
+    cursor:pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
 }
 
 .center {
@@ -137,45 +137,45 @@ p {
 }
 
 .left {
-	float:left;
+    float:left;
 }
 
 .right {
-	float:right;
+    float:right;
 }
 
 .trans3 {
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .hidden {
-	visibility:hidden;
-	opacity:0;
+    visibility:hidden;
+    opacity:0;
 }
 
 .connectionStatusWrapper {
-	position:fixed;
-	bottom: 80px;
-	right: 16px;
-	width: 148px;
-	height:32px;
-	z-index:11;
+    position:fixed;
+    bottom: 80px;
+    right: 16px;
+    width: 148px;
+    height:32px;
+    z-index:11;
 }
 
 .connectionStatusImage {
-	background: url("img/connecting.gif") center;
-	background-size: 32px;
-	width: 32px;
-	height: 32px;
-	float: right;
+    background: url("img/connecting.gif") center;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    float: right;
 }
 
 .connectionStatusText {
-	margin-top:8px;
+    margin-top:8px;
 }
 
 input[type="checkbox"]:checked + label::after {
@@ -202,14 +202,14 @@ input[type="checkbox"] {
 
 input[type="radio"],
 input[type="checkbox"] {
-	position: absolute;
-	left: -999em;
+    position: absolute;
+    left: -999em;
 }
 
 input[type="checkbox"] + label {
-	position: relative;
-	overflow: hidden;
-	cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 input[type="checkbox"] + label::before {
@@ -226,84 +226,84 @@ input[type="checkbox"] + label::before {
 }
 
 input[type="text"], input[type="password"] {
-	width:100%;
+    width:100%;
 }
 
 #navWrapper {
-	top:0px;
-	left:0px;
-	position:fixed;
-	width:100%;
-	height:64px;
+    top:0px;
+    left:0px;
+    position:fixed;
+    width:100%;
+    height:64px;
 }
 
 #topBarBackground {
     position: absolute;
-	top:0px;
-	left:0px;
-	background:url("http://www.starsonata.com/img/front/top_bar_960_background_tile.png") left top repeat-x;
-	width:100%;
-	height:64px;
+    top:0px;
+    left:0px;
+    background:url("http://www.starsonata.com/img/front/top_bar_960_background_tile.png") left top repeat-x;
+    width:100%;
+    height:64px;
 }
 
 #loginPanel {
     width: 400px;
-	height:200px;
-	padding:15px;
-	z-index:11;
+    height:200px;
+    padding:15px;
+    z-index:11;
 }
 
 #usernameWrapper {
-	
+    
 }
 
 #passwordWrapper {
-	
+    
 }
 
 #loginPanelControlWrapper {
-	padding:15px;
+    padding:15px;
 }
 
 #loginPanelControlWrapper div {
 }
 
 #passwordRememberTickboxWrapper {
-	
+    
 }
 
 #connectButtonWrapper {
-	height:25px;
+    height:25px;
 }
 
 #connectButtonWrapper p {
-	margin:5;
+    margin:5;
 }
 
 #screenShadow {
-	position:fixed;
-	background:#000000;
-	opacity:0.5;
-	width:100%;
-	height:100%;
-	top:0px;
-	left:0px;
-	z-index:10;
+    position:fixed;
+    background:#000000;
+    opacity:0.5;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:10;
 }
 
 #errorMessagePanel {
     width: 400px;
-	height:200px;
-	padding:15px;
-	z-index:12;
+    height:200px;
+    padding:15px;
+    z-index:12;
 }
 
 #errorMessageOKButtonWrapper {
-	height:25px;
+    height:25px;
 }
 
 #errorMessageOKButtonWrapper p {
-	margin:5;
+    margin:5;
 }
 
 #errorMessageOKButton {
@@ -313,18 +313,18 @@ input[type="text"], input[type="password"] {
 }
 
 #footerWrapper {
-	bottom:0px;
-	left:0px;
-	position:fixed;
-	width:100%;
-	height:64px;
+    bottom:0px;
+    left:0px;
+    position:fixed;
+    width:100%;
+    height:64px;
 }
 
 #bottomBarBackground {
     position: absolute;
-	bottom:0px;
-	left:0px;
-	background:url("http://www.starsonata.com/img/front/top_bar_960_background_tile.png") left top repeat-x;
-	width:100%;
-	height:64px;
+    bottom:0px;
+    left:0px;
+    background:url("http://www.starsonata.com/img/front/top_bar_960_background_tile.png") left top repeat-x;
+    width:100%;
+    height:64px;
 }
